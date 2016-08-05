@@ -13,15 +13,7 @@
   "mask" : "mask.png",
 
   "statusEffects" : [
-        {
-      "kind" : "Protection",
-      "level" : 25,
-      "amount" : 8
-    },
-   { "kind" : "glow",
-      "amount" : 3,
-      "color" : [56, 67, 96]
-    }
+    "lanternglow"
   ],
   
 
