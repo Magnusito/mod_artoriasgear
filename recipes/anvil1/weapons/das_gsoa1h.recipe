@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 8 }
+  ],
+  "output" : { "item" : "DaS_gsoa1h", "count" : 1 },
+  "groups" : [ "darkanvil", "weapons", "all" ]
+}

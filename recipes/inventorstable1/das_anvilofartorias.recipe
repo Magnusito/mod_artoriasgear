@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "craftinganvil", "count" : 1 },
+    { "item" : "money", "count" : 300 }
+  ],
+  "output" : {
+    "item" : "DaS_anvilofartorias",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable", "craftingstations", "all" ]
+}

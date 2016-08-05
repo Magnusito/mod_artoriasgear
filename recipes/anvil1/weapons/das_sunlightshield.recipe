@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 8 }
+  ],
+  "output" : { "item" : "DaS_sunlightshield", "count" : 1 },
+  "groups" : [ "darkanvil", "weapons", "all" ]
+}

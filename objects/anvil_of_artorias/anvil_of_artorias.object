@@ -1,0 +1,47 @@
+{
+  "objectName" : "DaS_anvilofartorias",
+  "race" : "generic",
+  "rarity" : "Legendary",
+  "category" : "crafting",
+  "price" : 600,
+  "printable" : true,
+  "description" : "A titanite anvil, used for shaping otherworldly equipment.",
+  "shortdescription" : "Anvil of Artorias",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftinganvil.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Anvil of Artorias",
+        "subtitle" : " ^#b9b5b2;Legendary Weapons and Armor",
+        "icon" : {
+          "file" : "/interface/crafting/craftinganvil.png"
+        }
+      }
+    },
+    "filter" : [ "darkanvil" ]
+  },
+  "apexDescription" : "A dark anvil. I sense the Abyss in it.",
+  "avianDescription" : "A dark, wet slab of flat metal.",
+  "floranDescription" : "Very dark, sssmell of lake.",
+  "glitchDescription" : "Educate. The Glitch craft all sorts of weapons on these anvils. Its color is out of the ordinary.",
+  "humanDescription" : "A strange anvil. It looks very wet, and dark. Those who use it should be aware of the Abyss.",
+  "hylotlDescription" : "Probably used in metal work.",
+
+  "inventoryIcon" : "anvil_of_artorias_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "anvil_of_artorias.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "npcToy" : {}
+}

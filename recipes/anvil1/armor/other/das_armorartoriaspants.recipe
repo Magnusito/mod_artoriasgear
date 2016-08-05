@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 8 }
+  ],
+  "output" : { "item" : "DaS_armorartoriaspants", "count" : 1 },
+  "groups" : [ "craftinganvil", "armours", "all" ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "moonstoneore", "count" : 20 }
+  ],
+  "output" : { "item" : "DaS_moonlightgreatsword", "count" : 1 },
+  "groups" : [ "darkanvil", "weapons", "all" ]
+}

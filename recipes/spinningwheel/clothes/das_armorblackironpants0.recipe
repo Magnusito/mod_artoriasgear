@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 6 }
+  ],
+  "output" : { "item" : "DaS_armorblackironpants0", "count" : 1 },
+  "groups" : [ "darkanvil", "clothes" ]
+}
