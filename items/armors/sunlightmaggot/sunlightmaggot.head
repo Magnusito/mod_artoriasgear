@@ -1,24 +1,19 @@
 {
   "itemName" : "sunlightmaggot",
   "inventoryIcon" : "icons.png:head",
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Rare",
+  "category" : "headarmour",
   "description" : "I've found my own sun!",
   "shortdescription" : "Sunlight Maggot",
-  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
 
   "statusEffects" : [
-    {
-      "kind" : "ColdProtection",
-      "amount" : "20"
-    },
-
-    {
+        {
       "kind" : "Protection",
       "level" : 25,
       "amount" : 8
