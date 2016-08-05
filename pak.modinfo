@@ -1,0 +1,11 @@
+{
+  "name" : "mod_artoriasgear",
+  "version" : "1.10 Stable",
+  "path" : ".",
+  "dependencies" : [ ],
+  "metadata": {
+    "author" : "TShinzon aka Masterduck",
+    "description" : "Dark Souls armor and gear.",
+    "support_url" : "http://www.nexusmods.com/starbound/mods/19/"
+  }
+}
