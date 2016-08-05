@@ -1,0 +1,44 @@
+{
+  "itemName" : "DaS_gsoa",
+  "level" : 6,
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Sir Artorias hunted the Darkwraiths, and his sword strikes harder against dark servants.",
+  "shortdescription" : "Greatsword of Artorias",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "broadsword"],
+
+  "inventoryIcon" : "DaS_gsoa.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "DaS_gsoa.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 15,
+
+    "stances" : {
+	  "idle" : {
+        "armRotation" : -10,
+        "weaponRotation" : 55
+      }
+    }
+  },
+
+  "altAbilityType" : "flipslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+
+}
