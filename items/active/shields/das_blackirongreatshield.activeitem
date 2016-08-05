@@ -1,0 +1,54 @@
+{
+  "itemName" : "DaS_blackirongreatshield",
+  "price" : 100,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Greatshield of the mighty knight Tarkus. Built of special black iron.",
+  "shortdescription" : "Black Iron Greatshield",
+  "tooltipKind" : "Shield", 
+  "twoHanded" : false,
+  "itemTags" : ["shield"],
+
+  "inventoryIcon" : "images/blackironshield.png:nearidle",
+
+  "animation" : "shield.animation",
+  "animationParts" : {
+    "shield" : "images/blackironshield.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "raiseShield" : [ "/sfx/melee/sword_guard.ogg" ],
+      "perfectBlock" : [ "/sfx/melee/shield_block_metal_perfect.ogg" ],
+      "block" : [ "/sfx/melee/shield_block_metal.ogg" ],
+      "break" : [ "/sfx/melee/shield_break_metal.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/shields/shield.lua"],
+
+  "minActiveTime" : 0.3,
+
+  "forceWalk" : true,
+  "baseShieldHealth" : 230,
+  "cooldownTime" : 0.9,
+
+  "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
+  "perfectBlockTime" : 0.2,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandshield.lua"
+}
