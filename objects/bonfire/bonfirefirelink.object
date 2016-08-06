@@ -1,5 +1,5 @@
 {
-  "objectName" : "DaS_bonfire",
+  "objectName" : "DaS_bonfirefirelink",
   "colonyTags" : ["cooking","light"],
   "printable" : false,
   "price" : 3000,
@@ -10,7 +10,7 @@
     "filter" : [ "bonfire" ]
   },
   "description" : "The bonfire's cinders are those of an Undead, and its fires provide rest for the weary and broken.",
-  "shortdescription" : "^orange;Bonfire^white;",
+  "shortdescription" : "^orange;Bonfire [Firelink DkS1]^white;",
   "race" : "generic",
   "category" : "crafting",
 
@@ -83,8 +83,8 @@
     }
   ],
 
-  "soundEffect" : "/sfx/objects/campfire.ogg",
-  "soundEffectRangeMultiplier" : 0.5,
+  "soundEffect" : "/sfx/objects/firelink.ogg",
+  "soundEffectRangeMultiplier" : 10,
 
   "statusEffects" : [ ],
 
