@@ -3,7 +3,6 @@
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Rare",
-  "category" : "headarmour",
   "description" : "Helm of the Black Knights who haunt Lordran.",
   "shortdescription" : "Black Knight Helm",
   "tooltipKind" : "armor",
