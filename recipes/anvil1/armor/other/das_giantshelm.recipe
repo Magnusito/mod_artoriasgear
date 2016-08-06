@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedferozium", "count" : 6 },
+    { "item" : "canvas", "count" : 1 }
+  ],
+  "output" : { "item" : "DaS_giantshelm", "count" : 1 },
+  "groups" : [ "darkanvil", "armours", "all" ]
+}

@@ -4,5 +4,5 @@
     { "item" : "canvas", "count" : 1 }
   ],
   "output" : { "item" : "DaS_armorblackknighthead", "count" : 1 },
-  "groups" : [ "craftinganvil", "armours", "all" ]
+  "groups" : [ "darkanvil", "armours", "all" ]
 }

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 6 },
+    { "item" : "canvas", "count" : 1 }
+  ],
+  "output" : { "item" : "DaS_crimsonhead", "count" : 1 },
+  "groups" : [ "darkanvil", "armours", "all" ]
+}

@@ -4,5 +4,5 @@
     { "item" : "leather", "count" : 1 }
   ],
   "output" : { "item" : "DaS_armorflutedhead", "count" : 1 },
-  "groups" : [ "craftinganvil", "armours", "all" ]
+  "groups" : [ "darkanvil", "armours", "all" ]
 }

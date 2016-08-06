@@ -3,5 +3,5 @@
     { "item" : "solariumstar", "count" : 20 }
   ],
   "output" : { "item" : "DaS_armorornsteinchest", "count" : 1 },
-  "groups" : [ "craftinganvil", "armours", "all" ]
+  "groups" : [ "darkanvil", "armours", "all" ]
 }

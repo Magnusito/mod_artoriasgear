@@ -5,5 +5,5 @@
     { "item" : "syntheticmaterial", "count" : 1 }
   ],
   "output" : { "item" : "DaS_armorblackknightchest", "count" : 1 },
-  "groups" : [ "craftinganvil", "armours", "all" ]
+  "groups" : [ "darkanvil", "armours", "all" ]
 }
