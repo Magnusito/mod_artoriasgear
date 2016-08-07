@@ -1,0 +1,29 @@
+{
+  "itemName" : "DaS_carvinggood",
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "carvinggood.png",
+  "image" : "carvinggood.png",
+  "shortdescription" : "Very Good! Carving",
+  "description" : "Head carved of archtrees by Gough in his imprisonment. This head says 'Very good'.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.6,
+
+  "projectileType" : "carvinggood",
+  "projectileConfig" : {
+    "speed" : 32,
+    "power" : 1.5,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}
