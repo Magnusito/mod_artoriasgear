@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "logblock", "count" : 1 }
   ],
-  "output" : { "item" : "DaS_carvinggood", "count" : 1 },
+  "output" : { "item" : "DaS_carvinghello", "count" : 1 },
   "groups" : [ "darkanvil", "consumables", "all" ]
 }
