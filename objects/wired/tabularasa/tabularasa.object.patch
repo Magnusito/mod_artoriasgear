@@ -1,1 +1,10 @@
-
+[
+  { "op" : "add",
+    "path" : "/filterButtons/-",
+    "value" :{
+      "baseImage" : "/interface/tabularasa/modartoriasgearGREY.png",
+      "baseImageChecked" : "/interface/tabularasa/modartoriasgearGOLD.png",
+      "filter" : "modArtoriasGear"
+    }
+  }
+]
