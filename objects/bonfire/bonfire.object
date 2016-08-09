@@ -7,6 +7,15 @@
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/craftingcampfire.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Bonfire",
+        "subtitle" : " ^#b9b5b2;So grossly incandescent!",
+        "icon" : {
+          "file" : "/objects/bonfire/bonfireicon.png"
+        }
+      }
+    },
     "filter" : [ "bonfire" ]
   },
   "description" : "The bonfire's cinders are those of an Undead, and its fires provide rest for the weary and broken.",

@@ -1,0 +1,53 @@
+{
+  "itemName" : "DaS_grasscrestshield",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "The grass crest is lightly imbued with magic, which slightly speeds stamina recovery.",
+  "shortdescription" : "Grass Crest Shield",
+  "tooltipKind" : "Shield",
+  "twoHanded" : false,
+  "itemTags" : ["shield"],
+
+  "inventoryIcon" : "images/grasscrestshield.png:nearidle",
+
+  "animation" : "shield.animation",
+  "animationParts" : {
+    "shield" : "images/grasscrestshield.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "raiseShield" : [ "/sfx/melee/sword_guard.ogg" ],
+      "perfectBlock" : [ "/sfx/melee/shield_block_metal_perfect.ogg" ],
+      "block" : [ "/sfx/melee/shield_block_metal.ogg" ],
+      "break" : [ "/sfx/melee/shield_break_metal.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/shields/shield.lua"],
+
+  "minActiveTime" : 0.3,
+
+  "forceWalk" : true,
+  "baseShieldHealth" : 190,
+  "cooldownTime" : 0.3,
+
+  "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
+  "perfectBlockTime" : 0.5,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandshield.lua"
+}
