@@ -1,5 +1,5 @@
 {
-  "itemName" : "DaS_zweihander",
+  "itemName" : "DaS_zweihander1h",
   "level" : 5,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
@@ -8,7 +8,7 @@
   "shortdescription" : "Zweihander",
   "tooltipKind" : "sword",
   "category" : "broadsword",
-  "twoHanded" : true,
+  "twoHanded" : false,
   "itemTags" : ["weapon", "melee", "broadsword"],
 
   "inventoryIcon" : "das_zweihander.png",
@@ -27,7 +27,7 @@
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
   "fireTime" : 1,
-  "baseDps" : 14,
+  "baseDps" : 13,
 
     "stances" : {
 	    "idle" : {
@@ -36,8 +36,6 @@
       }
     }
   },
-
-  "altAbilityType" : "risingslash",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 
