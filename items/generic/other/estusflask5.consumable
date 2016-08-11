@@ -12,9 +12,7 @@
       }
     ] ],
   "emote" : "",
-  "emitters" : [ "bandageuse" ],
-
-  "soundEffect" : "/sfx/objects/estus.ogg",
+  "emitters" : [ "estususe" ],
 
   "blockingEffects" : [
     "salveheal",

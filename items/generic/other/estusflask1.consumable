@@ -12,13 +12,11 @@
       }
     ] ],
   "emote" : "",
-  "emitters" : [ "bandageuse" ],
+  "emitters" : [ "estususe" ],
 
   "learnBlueprintsOnPickup" : [
     "DaS_estusflask2"
   ],
-
-  "soundEffect" : "/sfx/objects/estus.ogg",
 
   "blockingEffects" : [
     "salveheal",
