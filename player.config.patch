@@ -1,4 +1,5 @@
 [
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_estusflask"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_artoriasshield"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_blackknightshield"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_blackirongreatshield"}},

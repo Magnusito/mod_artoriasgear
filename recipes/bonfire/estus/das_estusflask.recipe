@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 5 }
+  ],
+  "output" : { "item" : "DaS_estusflask", "count" : 1 },
+  "groups" : [ "bonfire", "all" ]
+}

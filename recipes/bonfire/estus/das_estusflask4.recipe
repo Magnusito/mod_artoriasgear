@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "DaS_estusflask3", "count" : 2 }
+  ],
+  "output" : { "item" : "DaS_estusflask4", "count" : 1 },
+  "groups" : [ "bonfire", "all" ]
+}
