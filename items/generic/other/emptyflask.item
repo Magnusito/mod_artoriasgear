@@ -1,0 +1,12 @@
+{
+  "itemName" : "DaS_emptyflask",
+  "rarity" : "Common",
+  "category" : "upgradeComponent",
+  "inventoryIcon" : "emptyflask.png",
+  "description" : "Fill with Estus at bonfires, and drink to restore HP.",
+  "shortdescription" : "Empty Estus Flask",
+
+  "learnBlueprintsOnPickup" : [
+    "DaS_estusflask"
+  ]
+}

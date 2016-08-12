@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "campfire", "count" : 1 },
+    { "item" : "ironbar", "count" : 3 },
+    { "item" : "ash", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "DaS_bonfire",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable", "craftingstations", "all" ]
+}

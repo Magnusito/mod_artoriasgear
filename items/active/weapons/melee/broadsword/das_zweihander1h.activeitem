@@ -1,0 +1,42 @@
+{
+  "itemName" : "DaS_zweihander1h",
+  "level" : 5,
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "One of the gigantic straight greatswords. As the name suggests, the Zweihander is held with two hands, but its wielder must still be inhumanly strong.",
+  "shortdescription" : "Zweihander",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "melee", "broadsword"],
+
+  "inventoryIcon" : "das_zweihander.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "das_zweihander.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+  "fireTime" : 1,
+  "baseDps" : 13,
+
+    "stances" : {
+	    "idle" : {
+        "armRotation" : -10,
+        "weaponRotation" : 55
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+
+}
