@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 12 }
+  ],
+  "output" : { "item" : "DaS_dragonslayerspear", "count" : 1 },
+  "groups" : [ "darkanvil", "weapons", "all" ]
+}
