@@ -1,0 +1,32 @@
+{
+  "objectName" : "paintingfaraam",
+  "rarity" : "Legendary",
+  "description" : "Painting depicting a knight about to start an epic journey.",
+  "shortdescription" : "Faraam Painting",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+  "novakidDescription" : "",
+
+  "soundEffect" : "/sfx/objects/majula.ogg",
+  "soundEffectRangeMultiplier" : 10,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "paintingfaraam.png:<color>",
+      "imagePosition" : [-32, -32],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

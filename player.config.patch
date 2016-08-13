@@ -1,4 +1,9 @@
 [
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "paintingartorias"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "paintingastraea"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "paintingblackknight"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "paintingfaraam"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "paintingsoulofcinder"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_bonfire"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_estusflask"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_artoriasshield"}},

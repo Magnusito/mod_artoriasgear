@@ -1,0 +1,32 @@
+{
+  "objectName" : "paintingsoulofcinder",
+  "rarity" : "Legendary",
+  "description" : "This painting exudes melancholy and sadness but also relief.",
+  "shortdescription" : "Soul of Cinder Painting",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+  "novakidDescription" : "",
+
+  "soundEffect" : "/sfx/objects/firelink3.ogg",
+  "soundEffectRangeMultiplier" : 10,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "paintingsoulofcinder.png:<color>",
+      "imagePosition" : [-32, -32],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}
