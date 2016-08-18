@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "DaS_emptyflask5", "count": 1 },
-    { "item" : "plantfibre", "count" : 5 }
+    { "item" : "money", "count" : 60 }
   ],
   "output" : { "item" : "DaS_estusflask5", "count" : 1 },
   "groups" : [ "bonfire", "all" ]

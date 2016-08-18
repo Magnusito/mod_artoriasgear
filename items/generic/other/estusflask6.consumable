@@ -1,21 +1,21 @@
 {
-  "itemName" : "DaS_estusflask4",
+  "itemName" : "DaS_estusflask6",
   "rarity" : "Common",
   "price" : 10,
   "category" : "medicine",
   "inventoryIcon" : "estusflask.png",
   "description" : "No journey of import has been made without an Estus Flask.",
-  "shortdescription" : "Estus Flask +4",
+  "shortdescription" : "Estus Flask +6",
   "effects" : [ [
       {
-        "effect" : "estusheal4"
+        "effect" : "estusheal6"
       }
     ] ],
   "emote" : "",
   "emitters" : [ "estususe" ],
 
   "learnBlueprintsOnPickup" : [
-    "DaS_estusflask5"
+    "DaS_estusflask7"
   ],
 
   "blockingEffects" : [

@@ -1,13 +1,13 @@
 {
-  "name" : "estusheal3",
+  "name" : "estusheal7",
   "effectConfig" : {
-    "healAmount" : 150,
+    "healAmount" : 350,
     "emissionRate" : 2
   },
   "defaultDuration" : 10,
 
   "scripts" : [
-    "estusflaskheal3.lua"
+    "estusflaskheal7.lua"
   ],
 
   "animationConfig" : "heal.animation",
