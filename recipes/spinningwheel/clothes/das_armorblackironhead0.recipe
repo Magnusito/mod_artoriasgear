@@ -3,5 +3,5 @@
     { "item" : "fabric", "count" : 8 }
   ],
   "output" : { "item" : "DaS_armorblackironhead0", "count" : 1 },
-  "groups" : [ "darkanvil", "clothes" ]
+  "groups" : [ "craftingwheel", "clothes" ]
 }

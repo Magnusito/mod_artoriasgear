@@ -1,0 +1,29 @@
+{
+  "objectName" : "paintingastraeaNS",
+  "rarity" : "Rare",
+  "description" : "Painting of a holy woman with a pure soul.",
+  "shortdescription" : "Pure Soul Painting",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+  "novakidDescription" : "",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "paintingastraea.png:<color>",
+      "imagePosition" : [-32, -32],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}
