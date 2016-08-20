@@ -1,22 +1,22 @@
 {
-  "itemName" : "DaS_blackknighthalberd",
+  "itemName" : "DaS_moonlightbutterflyhorn",
   "price" : 0,
-  "level" : 5,
+  "level" : 4,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Glaive of the black knights who wander the lands. Used to face chaos demons.",
-  "shortdescription" : "Black Knight Glaive",
+  "description" : "The horns of the butterfly, a being created by Seath, are imbued with a pure magic power.",
+  "shortdescription" : "Moonlight Butterfly Horn",
   "tooltipKind" : "sword",
   "category" : "spear",
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","spear"],
 
-  "inventoryIcon" : "das_blackknighthalberd.png",
+  "inventoryIcon" : "das_moonlightbutterflyhorn.png",
 
   "animation" : "/items/active/weapons/melee/spear/spear.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "das_blackknighthalberd.png"
+    "blade" : "das_moonlightbutterflyhorn.png"
   },
   "animationCustom" : {
     "sounds" : {
@@ -26,7 +26,7 @@
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "ice",
 
   "aimOffset" : -1.0,
   "primaryAbilityType" : "spearstab",
