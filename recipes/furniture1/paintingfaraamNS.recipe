@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 2000 }
+  ],
+  "output" : {
+    "item" : "paintingfaraamNS",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

@@ -53,7 +53,7 @@
         "armRotation" : -90,
         "weaponRotation" : 0,
         "twoHanded" : false,
-        "weaponOffset" : [0, 2],
+        "weaponOffset" : [0, 3],
 
         "allowRotate" : true,
         "allowFlip" : true
@@ -64,7 +64,7 @@
         "armRotation" : -110,
         "weaponRotation" : 20,
         "twoHanded" : false,
-        "weaponOffset" : [0, 2],
+        "weaponOffset" : [0, 3],
 
         "allowRotate" : true,
         "allowFlip" : true
@@ -74,7 +74,7 @@
         "armRotation" : -20,
         "weaponRotation" : -70,
         "twoHanded" : false,
-        "weaponOffset" : [0.3, 4],
+        "weaponOffset" : [0.3, 3],
 
         "allowRotate" : true,
         "allowFlip" : true
@@ -83,7 +83,7 @@
         "armRotation" : -30,
         "weaponRotation" : -60,
         "twoHanded" : false,
-        "weaponOffset" : [-0.3, 3.5],
+        "weaponOffset" : [0, 2.50],
 
         "allowRotate" : true,
         "allowFlip" : true

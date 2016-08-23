@@ -1,0 +1,32 @@
+{
+  "objectName" : "paintingartorias",
+  "rarity" : "Legendary",
+  "description" : "Painting depicting a mysterious knight surrounded in darkness.",
+  "shortdescription" : "Wolf Knight Painting",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+  "novakidDescription" : "",
+
+  "soundEffect" : "/sfx/objects/artorias.ogg",
+  "soundEffectRangeMultiplier" : 10,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "paintingartorias.png:<color>",
+      "imagePosition" : [-32, -32],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

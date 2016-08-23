@@ -1,7 +1,7 @@
 {
   "name" : "estusheal3",
   "effectConfig" : {
-    "healAmount" : 200,
+    "healAmount" : 150,
     "emissionRate" : 2
   },
   "defaultDuration" : 10,

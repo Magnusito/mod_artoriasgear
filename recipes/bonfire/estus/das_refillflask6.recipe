@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "DaS_emptyflask6", "count": 1 },
+    { "item" : "money", "count" : 70 }
+  ],
+  "output" : { "item" : "DaS_estusflask6", "count" : 1 },
+  "groups" : [ "bonfire", "all" ]
+}

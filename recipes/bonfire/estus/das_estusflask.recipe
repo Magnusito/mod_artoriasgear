@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "plantfibre", "count" : 5 }
+    { "item" : "goldbar", "count" : 1 },
+    { "item" : "money", "count": 10}
   ],
   "output" : { "item" : "DaS_estusflask", "count" : 1 },
   "groups" : [ "bonfire", "all" ]

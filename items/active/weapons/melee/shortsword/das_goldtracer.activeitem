@@ -1,0 +1,48 @@
+{
+  "itemName" : "DaS_goldtracer",
+  "price" : 150,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Curved sword used by the Lord's Blade Ciaran, one of Gwyn's Four Knights.",
+  "shortdescription" : "Gold Tracer",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "das_goldtracer.png",
+
+  "animation" : "comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "das_goldtracer.png"
+  },
+
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "poison",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.93,
+    "baseDps" : 8.5,
+
+    "stances" : {
+      "idle" : {
+        "weaponOffset" : [-0.25, 2.5]
+      },
+      "fire" : {
+        "weaponOffset" : [-0.25, 2.5]
+      },
+      "fire2" : {
+        "weaponOffset" : [-0.25, 2.5]
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+
+}

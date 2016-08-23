@@ -1,0 +1,31 @@
+{
+  "itemName" : "DaS_estusflask7",
+  "rarity" : "Common",
+  "price" : 10,
+  "category" : "medicine",
+  "inventoryIcon" : "estusflask.png",
+  "description" : "No journey of import has been made without an Estus Flask.",
+  "shortdescription" : "Estus Flask +7",
+  "effects" : [ [
+      {
+        "effect" : "estusheal7"
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "estususe" ],
+
+  "blockingEffects" : [
+    "salveheal",
+    "bandageheal",
+    "medkitheal",
+    "nanowrapheal",
+    "estusheal",
+    "estusheal1",
+    "estusheal2",
+    "estusheal3",
+    "estusheal4",
+    "estusheal5",
+    "estusheal6",
+    "estusheal7"
+  ]
+}
