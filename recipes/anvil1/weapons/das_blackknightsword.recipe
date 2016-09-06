@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 8 }
+  ],
+  "output" : { "item" : "DaS_blackknightsword", "count" : 1 },
+  "groups" : [ "darkanvil", "weapons", "all" ]
+}
