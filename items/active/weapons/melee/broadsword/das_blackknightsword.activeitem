@@ -1,0 +1,42 @@
+{
+  "itemName" : "DaS_blackknightsword",
+  "level" : 5,
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Greatsword of the Black Knights who wander Lordran. Used to face chaos demons.",
+  "shortdescription" : "Black Knight Sword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "melee", "broadsword"],
+
+  "inventoryIcon" : "das_blackknightsword.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "das_blackknightsword.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+  "fireTime" : 1,
+  "baseDps" : 15,
+
+    "stances" : {
+	    "idle" : {
+        "armRotation" : -10,
+        "weaponRotation" : 55
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+
+}
