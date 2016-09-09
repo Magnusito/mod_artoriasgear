@@ -1,0 +1,75 @@
+{
+  "itemName" : "DaS_eliteknightchest",
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Armor of a nameless knight, perhaps an elite knight of Astora, based on the fire-warding heraldic symbol on its blue surcoat.",
+  "shortdescription" : "Elite Knight Armor",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "level" : 4,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+
+  "itemTags" : [ "tier4armour" ],
+  
+  "colorOptions" : [
+    // DEFAULT
+    { "1c1a39" : "1c1a39", "181630" : "181630", "121125" : "121125" },
+    // BLACK
+    { "1c1a39" : "555555", "181630" : "383838", "121125" : "151515" },
+    // GREY
+    { "1c1a39" : "808080", "181630" : "555555", "121125" : "303030" },
+    // WHITE
+    { "1c1a39" : "b6b6b6", "181630" : "7b7b7b", "121125" : "373737" },
+	// RED
+    { "1c1a39" : "d93a3a", "181630" : "932625", "121125" : "601119" },
+    // ORANGE
+    { "1c1a39" : "ea9931", "181630" : "af4e00", "121125" : "6e2900" },
+    // YELLOW
+    { "1c1a39" : "e2c344", "181630" : "a46e06", "121125" : "642f00" },
+    // GREEN
+    { "1c1a39" : "51bd3b", "181630" : "247824", "121125" : "144216" },
+    // BLUE
+    { "1c1a39" : "5588d4", "181630" : "344495", "121125" : "1a1c51" },
+    // PURPLE
+    { "1c1a39" : "a451c4", "181630" : "6a2284", "121125" : "320c40" },
+    // PINK
+    { "1c1a39" : "d35eae", "181630" : "97276d", "121125" : "59163f" },
+    // BROWN
+    { "1c1a39" : "a47844", "181630" : "754c23", "121125" : "472b13" }
+
+  ]
+}
