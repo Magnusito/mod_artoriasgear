@@ -34,13 +34,13 @@
       "burstCount": 3,
       "particles": [
         {
-          "particle": "fireswoosh1"
+          "particle": "darkswoosh1"
         },
         {
-          "particle": "fireswoosh2"
+          "particle": "darkswoosh2"
         },
         {
-          "particle": "fireswoosh3"
+          "particle": "darkswoosh3"
         }
       ]
     }
