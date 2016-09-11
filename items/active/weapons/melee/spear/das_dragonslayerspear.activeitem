@@ -31,9 +31,6 @@
   "aimOffset" : -1.0,
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
-    "scripts" : [],
-    "class" : "SpearStab",
-
     "fireTime" : 0.5,
     "baseDps" : 14.0,
     "damageConfig" : {
@@ -42,11 +39,6 @@
       "knockbackMode" : "aim",
       "knockback" : 10,
       "timeoutGroup" : "primary"
-    },
-    "holdDamageMultiplier" : 0.1,
-    "holdDamageConfig" : {
-      "timeoutGroup" : "hold",
-      "timeout" : 0.5
     },
     "stances" : {
       "idle" : {
@@ -59,8 +51,6 @@
         "allowFlip" : true
       },
       "windup" : {
-        "hold" : true,
-        "duration" : 0.55,
         "armRotation" : -110,
         "weaponRotation" : 20,
         "twoHanded" : true,
@@ -70,7 +60,6 @@
         "allowFlip" : true
       },
       "fire" : {
-        "duration" : 0.3,
         "armRotation" : -20,
         "weaponRotation" : -70,
         "twoHanded" : true,
@@ -83,7 +72,7 @@
         "armRotation" : -30,
         "weaponRotation" : -60,
         "twoHanded" : true,
-        "weaponOffset" : [-0.3, 3.5],
+        "weaponOffset" : [0, 2.50],
 
         "allowRotate" : true,
         "allowFlip" : true
