@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 10 },
+    { "item" : "leather", "count" : 3 },
+    { "item" : "silk", "count" : 1 }
+  ],
+  "output" : { "item" : "DaS_eliteknightchest", "count" : 1 },
+  "groups" : [ "darkanvil", "armours", "all" ]
+}

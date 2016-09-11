@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "campfire", "count" : 1 },
+    { "item" : "ash", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "DaS_warpbonfire",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all" ]
+}

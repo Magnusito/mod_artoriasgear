@@ -1,0 +1,163 @@
+[
+  {
+    "op": "add",
+    "path": "/particleEmitters/yellowelectricswoosh",
+    "value": {
+      "active": false,
+      "transformationGroups": [
+        "swoosh"
+      ],
+      "emissionRate": 50,
+      "burstCount": 3,
+      "particles": [
+        {
+          "particle": "electricswoosh1"
+        },
+        {
+          "particle": "electricswoosh2"
+        },
+        {
+          "particle": "electricswoosh2"
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/particleEmitters/darkswoosh",
+    "value": {
+      "active": false,
+      "transformationGroups": [
+        "swoosh"
+      ],
+      "emissionRate": 50,
+      "burstCount": 3,
+      "particles": [
+        {
+          "particle": "darkswoosh1"
+        },
+        {
+          "particle": "darkswoosh2"
+        },
+        {
+          "particle": "darkswoosh3"
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/particleEmitters/divineswoosh",
+    "value": {
+      "active": false,
+      "transformationGroups": [
+        "swoosh"
+      ],
+      "emissionRate": 50,
+      "burstCount": 3,
+      "particles": [
+        {
+          "particle": "iceswoosh1"
+        },
+        {
+          "particle": "iceswoosh2"
+        },
+        {
+          "particle": "iceswoosh3"
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/particleEmitters/magicswoosh",
+    "value": {
+      "active": false,
+      "transformationGroups": [
+        "swoosh"
+      ],
+      "emissionRate": 50,
+      "burstCount": 3,
+      "particles": [
+        {
+          "particle": "iceswoosh1"
+        },
+        {
+          "particle": "iceswoosh2"
+        },
+        {
+          "particle": "iceswoosh3"
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/particleEmitters/enchantedswoosh",
+    "value": {
+      "active": false,
+      "transformationGroups": [
+        "swoosh"
+      ],
+      "emissionRate": 50,
+      "burstCount": 3,
+      "particles": [
+        {
+          "particle": "iceswoosh1"
+        },
+        {
+          "particle": "iceswoosh2"
+        },
+        {
+          "particle": "iceswoosh3"
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/particleEmitters/crystalswoosh",
+    "value": {
+      "active": false,
+      "transformationGroups": [
+        "swoosh"
+      ],
+      "emissionRate": 50,
+      "burstCount": 3,
+      "particles": [
+        {
+          "particle": "iceswoosh1"
+        },
+        {
+          "particle": "iceswoosh2"
+        },
+        {
+          "particle": "iceswoosh3"
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/particleEmitters/chaosswoosh",
+    "value": {
+      "active": false,
+      "transformationGroups": [
+        "swoosh"
+      ],
+      "emissionRate": 50,
+      "burstCount": 3,
+      "particles": [
+        {
+          "particle": "fireswoosh1"
+        },
+        {
+          "particle": "fireswoosh2"
+        },
+        {
+          "particle": "fireswoosh3"
+        }
+      ]
+    }
+  }
+]
