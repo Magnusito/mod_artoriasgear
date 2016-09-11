@@ -6,14 +6,14 @@
   "rarity" : "Uncommon",
   "description" : "Straight sword of an unknown knight, likely one of Astora's superiors.",
   "shortdescription" : "Astora Straight Sword",
-  "tooltipKind" : "base",
+  "tooltipKind" : "sword",
   "category" : "shortsword",
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","shortsword"],
 
   "inventoryIcon" : "astorastraightsword.png",
 
-  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animation" : "comboshortsword.animation",
   "animationParts" : {
     "handle": "",
     "blade" : "astorastraightsword.png"
