@@ -1,11 +1,11 @@
 {
-  "itemName" : "baroncapeback",
+  "itemName" : "DaS_silverknightcape",
   "price" : 0,
-  "inventoryIcon" : "baroncapebackicon.png",
+  "inventoryIcon" : "silverknightcapebackicon.png",
   "rarity" : "Common",
   "category" : "backwear",
-  "description" : "This cape was designed to swish dramatically as the wearer enters a room.",
-  "shortdescription" : "Baron's Cape",
+  "description" : "Cape of the Silver Knights that protect Anor Londo.",
+  "shortdescription" : "Silver Knight Cape",
   "tooltipKind" : "back",
 
   "maleFrames" : "back.png",
