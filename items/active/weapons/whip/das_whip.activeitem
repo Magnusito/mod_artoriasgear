@@ -1,7 +1,7 @@
 {
   "itemName" : "DaS_whip",
   "price" : 0,
-  "level" : 2,
+  "level" : 6,
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "Leather whip. Not intended for battle.",
@@ -37,8 +37,8 @@
 
   "primaryAbilityType" : "whipcrack",
   "primaryAbility" : {
-    "fireTime" : 1.2,
-    "chainDps" : 0.0,
+    "fireTime" : 1.0,
+    "chainDps" : 2.0,
     "crackDps" : 6.0
   },
 

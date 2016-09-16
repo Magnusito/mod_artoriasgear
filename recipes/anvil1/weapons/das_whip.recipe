@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 8 }
+  ],
+  "output" : { "item" : "DaS_whip", "count" : 1 },
+  "groups" : [ "darkanvil", "weapons", "all" ]
+}

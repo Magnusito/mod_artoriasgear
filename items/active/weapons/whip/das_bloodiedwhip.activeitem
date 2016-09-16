@@ -1,20 +1,20 @@
 {
-  "itemName" : "DaS_notchedwhip",
+  "itemName" : "DaS_bloodiedwhip",
   "price" : 0,
   "level" : 6,
   "maxStack" : 1,
-  "rarity" : "Uncommon",
-  "description" : "Whip with sharp spikes whielded by King Jeremiah.",
-  "shortdescription" : "Notched Whip",
+  "rarity" : "Rare",
+  "description" : "A blood-stained whip. A tool made for a purpose forbidden by the gods.",
+  "shortdescription" : "Bloodied Whip",
   "tooltipKind" : "sword",
   "category" : "whip",
   "twoHanded" : false,
   "itemTags" : ["weapon"],
 
-  "inventoryIcon" : "das_notchedwhip.png:idle",
+  "inventoryIcon" : "das_bloodiedwhip.png:idle",
   "animation" : "whip.animation",
   "animationParts" : {
-    "weapon" : "das_notchedwhip.png",
+    "weapon" : "das_bloodiedwhip.png",
     "weaponFullbright" : ""
   },
   "animationCustom" : {
@@ -28,8 +28,8 @@
   "chain" : {
     "startOffset" : [0.625, 0.0625],
     "length" : [3, 14],
-    "segmentImage" : "/items/active/weapons/whip/das_notchedwhiplink.png",
-    "endSegmentImage" : "/items/active/weapons/whip/das_notchedwhipend.png",
+    "segmentImage" : "/items/active/weapons/whip/das_bloodiedwhiplink.png",
+    "endSegmentImage" : "/items/active/weapons/whip/das_bloodiedwhipend.png",
     "segmentSize" : 0.375
   },
 
@@ -38,8 +38,8 @@
   "primaryAbilityType" : "whipcrack",
   "primaryAbility" : {
     "fireTime" : 1.0,
-    "chainDps" : 6.5,
-    "crackDps" : 0.0
+    "chainDps" : 1.0,
+    "crackDps" : 14.0
   },
 
   "builder" : "/items/buildscripts/buildwhip.lua"
