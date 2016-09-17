@@ -1,0 +1,57 @@
+{
+  "itemName" : "DaS_spottedwhip",
+  "price" : 0,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A whip born from the soul of the Demon of Song. Covered with strange spots that betray its poisonous effects.",
+  "shortdescription" : "Spotted Whip",
+  "tooltipKind" : "sword",
+  "category" : "whip",
+  "twoHanded" : false,
+  "itemTags" : ["weapon"],
+
+  "inventoryIcon" : "das_spottedwhip.png:idle",
+  "animation" : "whip.animation",
+  "animationParts" : {
+    "weapon" : "das_spottedwhip.png",
+    "weaponFullbright" : ""
+  },
+  "animationCustom" : {
+    "particleEmitters" : { "crack" : {
+      "burstCount" : 3,
+      "particles" : [{"particle" : "poisonswoosh1"}]
+    }},
+    "sounds" : {
+      "swing" : [ "/sfx/melee/whip_swing1.ogg", "/sfx/melee/whip_swing2.ogg", "/sfx/melee/whip_swing3.ogg" ],
+      "crack" : [ "/sfx/melee/whip_impact1.ogg", "/sfx/melee/whip_impact2.ogg", "/sfx/melee/whip_impact3.ogg" ]
+    }
+  },
+
+  "chain" : {
+    "startOffset" : [0.625, 0.0625],
+    "length" : [3, 14],
+    "segmentImage" : "/items/active/weapons/whip/das_spottedwhiplink.png",
+    "endSegmentImage" : "/items/active/weapons/whip/das_spottedwhipend.png",
+    "segmentSize" : 0.375
+  },
+
+  "scripts" : [ "whip.lua" ],
+
+  "elementalType" : "poison",
+
+  "primaryAbilityType" : "whipcrack",
+  "primaryAbility" : {
+    "fireTime" : 1.0,
+    "chainDps" : 6.0,
+    "crackDps" : 2.0,
+
+    "damageConfig" : {
+      "damageSourceKind" : "poisonlash"
+    },
+
+    "projectileType" : "whipcrackpoison"
+  },
+
+  "builder" : "/items/buildscripts/buildwhip.lua"
+}

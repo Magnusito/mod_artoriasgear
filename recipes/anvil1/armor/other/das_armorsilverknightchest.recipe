@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 10 },
+    { "item" : "leather", "count" : 1 },
+    { "item" : "silk", "count" : 1 }
+  ],
+  "output" : { "item" : "DaS_armorsilverknightchest", "count" : 1 },
+  "groups" : [ "darkanvil", "armours", "all" ]
+}
