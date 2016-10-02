@@ -6,7 +6,7 @@
   "rarity" : "Uncommon",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "config" : "/interface/windowconfig/craftingbonfire.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
         "title" : "Bonfire",
