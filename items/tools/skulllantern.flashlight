@@ -1,0 +1,18 @@
+{
+  "itemName" : "DaS_skulllantern",
+  "price" : 0,
+  "category" : "Tool",
+  "inventoryIcon" : "skulllantern.png",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "description" : "Skull Lantern of the Catacombs necromancer. Drops from his long beard locks.",
+  "shortdescription" : "Skull Lantern",
+  "largeImage" : "skulllantern.png",
+  "tooltipKind" : "tool",
+  "image" : "skulllantern.png",
+  "handPosition" : [-2, 0],
+  "lightPosition" : [2, -5],
+  "lightColor" : [255, 188, 102],
+  "beamLevel" : 5,
+  "beamAmbience" : 0.6
+}

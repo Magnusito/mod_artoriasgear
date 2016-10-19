@@ -49,6 +49,8 @@
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_carvinghelp"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_carvingthanks"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_carvingsorry"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_prismstone"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_skulllantern"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_armorartoriashead"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_armorartoriaschest"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_armorartoriaspants"}},
