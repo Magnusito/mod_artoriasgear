@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 10 }
+  ],
+  "output" : { "item" : "DaS_prismstone", "count" : 1 },
+  "groups" : [ "darkanvil", "consumables", "all" ]
+}

@@ -44,6 +44,7 @@
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_goldtracer"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_astorastraightsword"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_anvilofartorias"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_shanalotte"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_carvinggood"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_carvinghello"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_carvinghelp"}},
