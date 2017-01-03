@@ -6,11 +6,11 @@
   "rarity" : "Uncommon",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "config" : "/interface/windowconfig/craftingbonfire.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
         "title" : "Bonfire",
-        "subtitle" : " ^#b9b5b2;So grossly incandescent!",
+        "subtitle" : " ^#b9b5b2;Estus Replenishment",
         "icon" : {
           "file" : "/objects/bonfire/bonfireicon.png"
         }

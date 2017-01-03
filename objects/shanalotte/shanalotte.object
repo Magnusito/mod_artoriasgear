@@ -1,0 +1,47 @@
+{
+  "objectName" : "DaS_shanalotte",
+  "race" : "generic",
+  "rarity" : "Legendary",
+  "category" : "crafting",
+  "price" : 0,
+  "printable" : true,
+  "description" : "A woman from a distant land where time and space are distorted.",
+  "shortdescription" : "^orange;Shanalotte, Emerald Herald^white;",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingfirekeeper.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Shanalotte the Emerald Herald",
+        "subtitle" : " ^#b9b5b2;Shall I improve your estus flasks?",
+        "icon" : {
+          "file" : "/objects/shanalotte/shanalotte_icon.png"
+        }
+      }
+    },
+    "filter" : [ "herald" ]
+  },
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+
+  "inventoryIcon" : "shanalotte_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "shanalotte.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "npcToy" : {}
+}

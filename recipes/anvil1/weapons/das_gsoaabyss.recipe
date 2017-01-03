@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 12 }
+  ],
+  "output" : { "item" : "DaS_gsoaabyss", "count" : 1 },
+  "groups" : [ "darkanvil", "weapons", "all" ]
+}

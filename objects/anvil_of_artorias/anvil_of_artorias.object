@@ -6,7 +6,7 @@
   "price" : 600,
   "printable" : true,
   "description" : "A titanite anvil, used for shaping otherworldly equipment.",
-  "shortdescription" : "Anvil of Artorias",
+  "shortdescription" : "^orange;Anvil of Artorias^white;",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/craftinganvil.config",
@@ -42,6 +42,6 @@
 
     }
   ],
-  
+
   "npcToy" : {}
 }

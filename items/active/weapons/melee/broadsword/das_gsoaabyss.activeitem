@@ -1,41 +1,43 @@
 {
-  "itemName" : "DaS_gsoa1h",
-  "level" : 6,
+  "itemName" : "DaS_gsoaabyss",
+  "level" : 3,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "Sir Artorias hunted the Darkwraiths, and his sword strikes harder against dark servants.",
-  "shortdescription" : "Greatsword of Artorias",
+  "description" : "This greatsword belonged to Lord Gwyn's Knight Artorias, who fell to the abyss.",
+  "shortdescription" : "Abyss Greatsword",
   "tooltipKind" : "sword",
   "category" : "broadsword",
-  "twoHanded" : false,
+  "twoHanded" : true,
   "itemTags" : ["weapon", "melee", "broadsword"],
 
-  "inventoryIcon" : "DaS_gsoa_thin.png",
+  "inventoryIcon" : "DaS_gsoa_abyss_thin.png",
 
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "DaS_gsoa_thin.png"
+    "blade" : "DaS_gsoa_abyss_thin.png"
   },
   "animationCustom" : { },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "dark",
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
-    "fireTime" : 0.8,
-    "baseDps" : 11.5,
+    "fireTime" : 0.9,
+    "baseDps" : 15,
 
     "stances" : {
-	    "idle" : {
+	  "idle" : {
         "armRotation" : -10,
         "weaponRotation" : 55
       }
     }
   },
+
+  "altAbilityType" : "flipslash",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 
