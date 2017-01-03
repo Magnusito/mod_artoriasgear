@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "durasteelbar", "count" : 12 }
   ],
-  "output" : { "item" : "DaS_gsoa", "count" : 1 },
+  "output" : { "item" : "DaS_profanedgreatsword", "count" : 1 },
   "groups" : [ "darkanvil", "weapons", "all" ]
 }

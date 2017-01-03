@@ -1,33 +1,33 @@
 {
-  "itemName" : "DaS_gsoa1h",
-  "level" : 6,
+  "itemName" : "DaS_profanedgreatsword",
+  "level" : 5,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "rarity" : "Legendary",
-  "description" : "Sir Artorias hunted the Darkwraiths, and his sword strikes harder against dark servants.",
-  "shortdescription" : "Greatsword of Artorias",
+  "rarity" : "Rare",
+  "description" : "A ceremonial sword, held in Pontiff Sulyvahn's right hand, representing the Profaned Flame.",
+  "shortdescription" : "Profaned Greatsword",
   "tooltipKind" : "sword",
   "category" : "broadsword",
-  "twoHanded" : false,
+  "twoHanded" : true,
   "itemTags" : ["weapon", "melee", "broadsword"],
 
-  "inventoryIcon" : "DaS_gsoa_thin.png",
+  "inventoryIcon" : "das_profanedgreatsword.png",
 
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "DaS_gsoa_thin.png"
+    "blade" : "das_profanedgreatsword.png"
   },
   "animationCustom" : { },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "fire",
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
-    "fireTime" : 0.8,
-    "baseDps" : 11.5,
+  "fireTime" : 1,
+  "baseDps" : 15.5,
 
     "stances" : {
 	    "idle" : {
@@ -36,6 +36,8 @@
       }
     }
   },
+
+  "altAbilityType" : "risingslash",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 
