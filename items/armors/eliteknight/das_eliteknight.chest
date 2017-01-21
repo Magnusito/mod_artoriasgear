@@ -44,7 +44,7 @@
   ],
 
   "itemTags" : [ "tier4armour" ],
-  
+
   "colorOptions" : [
     // DEFAULT
     { "1c1a39" : "1c1a39", "181630" : "181630", "121125" : "121125" },
