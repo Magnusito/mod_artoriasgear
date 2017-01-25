@@ -31,7 +31,7 @@
   },
 
   "scripts" : ["/items/active/weapons/bow/bow.lua"],
- 
+
   "primaryAbilityType" : "bowshot",
   "primaryAbility" : {
     "walkWhileFiring" : false,
@@ -46,7 +46,7 @@
     }
   },
 
-  
+
 
   "builder" : "/items/buildscripts/buildbow.lua"
 }

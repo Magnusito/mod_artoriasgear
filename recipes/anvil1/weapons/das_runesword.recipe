@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count": 4}
+  ],
+  "output" : { "item" : "DaS_runesword", "count" : 1 },
+  "groups" : [ "darkanvil", "weapons", "all" ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 10 }
+  ],
+  "output" : { "item" : "DaS_dragonslayerbow", "count" : 1 },
+  "groups" : [ "darkanvil", "weapons", "all" ]
+}
