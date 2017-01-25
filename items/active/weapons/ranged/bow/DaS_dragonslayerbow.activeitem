@@ -1,0 +1,52 @@
+{
+  "itemName" : "DaS_dragonslayerbow",
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "tooltipKind" : "bow",
+  "category" : "bow",
+  "description" : "",
+  "shortdescription" : "Dragonslayer Greatbow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow"],
+
+  "radioMessagesOnPickup" : [ "pickupbow" ],
+   "inventoryIcon" : "dragonslayerbowicon.png",
+
+  "level" : 5,
+
+  "animation" : "/items/active/weapons/bow/bow.animation",
+  "animationParts" : {
+    "bow" : "DaS_dragonslayerbow.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0.5, 0]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/greatbow_draw.ogg" ],
+      "release" : [ "/sfx/gun/greatbow.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/greatbow_perfect.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "walkWhileFiring" : false,
+    "energyPerShot" : 90,
+	"cooldownTime" : 1.0,
+    "drawFrameSelector" : "poisonBowImageSelector",
+    "drawArmFrames" : ["rotation", "swimIdle.1", "swim.1", "fall.1", "fall.1", "fall.1"],
+    "projectileType" : "dragonslayerarrow",
+    "powerProjectileType" : "dragonslayerarrow",
+    "projectileParameters" : {
+      "power" : 15
+    }
+  },
+
+
+
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

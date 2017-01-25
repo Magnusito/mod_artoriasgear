@@ -1,22 +1,22 @@
 {
-  "itemName" : "DaS_astorastraightsword",
+  "itemName" : "DaS_runesword",
   "price" : 0,
   "level" : 2,
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "Straight sword of an unknown knight, likely one of Astora's superiors.",
-  "shortdescription" : "Astora Straight Sword",
+  "description" : "A gilded sword crafted with exquisite design. It is the weapon of the legendary hero, with it's paired rune shield.",
+  "shortdescription" : "Rune Sword",
   "tooltipKind" : "sword",
   "category" : "shortsword",
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","shortsword"],
 
-  "inventoryIcon" : "astorastraightsword.png",
+  "inventoryIcon" : "das_runesword.png",
 
   "animation" : "comboshortsword.animation",
   "animationParts" : {
     "handle": "",
-    "blade" : "astorastraightsword.png"
+    "blade" : "das_runesword.png"
   },
   "animationCustom" : { },
 

@@ -1,0 +1,15 @@
+{
+  "itemName" : "sunlightdye",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "clothingDye",
+  "inventoryIcon" : "sunlightdye.png",
+  "description" : "This coloured dye can be applied to a piece of Dark Souls armour or clothing with a right-click.",
+  "shortdescription" : "Sunlight Orange Dye",
+
+  "dyeColorIndex" : 12,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

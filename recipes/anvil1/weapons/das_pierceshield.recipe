@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 6 }
+  ],
+  "output" : { "item" : "DaS_pierceshield", "count" : 1 },
+  "groups" : [ "darkanvil", "weapons", "all" ]
+}
