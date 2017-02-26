@@ -33,6 +33,33 @@
 	    "idle" : {
         "armRotation" : -10,
         "weaponRotation" : 55
+      },
+      "windup1" : {
+        "twoHanded" : false
+      },
+      "preslash1" : {
+        "twoHanded" : false
+      },
+      "fire1" : {
+        "twoHanded" : false
+      },
+      "wait1" : {
+        "twoHanded" : false
+      },
+      "windup2" : {
+        "twoHanded" : false
+      },
+      "fire2" : {
+        "twoHanded" : false
+      },
+      "wait2" : {
+        "twoHanded" : false
+      },
+      "windup3" : {
+        "twoHanded" : false
+      },
+      "fire3" : {
+        "twoHanded" : false
       }
     }
   },
