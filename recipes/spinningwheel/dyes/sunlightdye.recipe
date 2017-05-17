@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : { "item" : "sunlightdye", "count" : 1 },
+  "groups" : [ "craftingwheel", "dyes", "all" ]
+}

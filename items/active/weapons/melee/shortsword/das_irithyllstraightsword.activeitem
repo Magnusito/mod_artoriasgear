@@ -1,0 +1,35 @@
+{
+  "itemName" : "DaS_irithyllstraightsword",
+  "price" : 0,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Straight sword bestowed upon the Outrider Knights of the Boreal Valley.",
+  "shortdescription" : "Irithyll Straight Sword",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "das_irithyllstraightsword.png",
+
+  "animation" : "irithyllstraightsword.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "das_irithyllstraightsword.png",
+    "swordfullbright" : "das_irithyllstraightswordfullbright.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "ice",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.6,
+    "baseDps" : 8.5
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

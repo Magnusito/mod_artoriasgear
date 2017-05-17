@@ -146,5 +146,10 @@
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_crimsonchest0"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_crimsonpants0"}},
   {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_crimsonhead0"}},
-  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_sunlightmaggot0"}}
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "DaS_sunlightmaggot0"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "chaoticdye"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "darkwraithdye"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "phantomdye"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "protectordye"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item" : "sunlightdye"}}
 ]
