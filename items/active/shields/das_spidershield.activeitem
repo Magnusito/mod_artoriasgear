@@ -23,7 +23,10 @@
     }
   },
 
-  "scripts" : ["/items/active/shields/shield.lua"],
+  "scripts" : [
+    "/items/active/shields/shield.lua",
+    "/items/active/shields/scripts/das_spidershield.lua"
+  ],
 
   "minActiveTime" : 0.3,
 
